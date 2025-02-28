@@ -1,35 +1,20 @@
-Secure Spring MVC Web Application
+# **Spring Boot Authentication System**
 
-Overview
+This project is a **Spring Boot MVC web application** that implements authentication and authorization for authorized users. It provides **secure login functionality**, role-based access control, and encrypted user credentials stored in a database.
 
-This project demonstrates how to implement authentication and authorization in a Spring MVC web application using Spring Security. The application allows only authorized users to log in and access specific resources based on their roles.
+## **Features**
+- **Secure Spring MVC Web Apps**
+- **Develop login pages (default & custom)**
+- **Define users and roles with simple authentication**
+- **Protect URLs based on user roles**
+- **Hide/show content dynamically based on role**
+- **Store users, passwords, and roles in a database**
+- **Encrypt passwords for enhanced security**
 
-Features
-
-Secure Spring MVC web application with Spring Security.
-
-Default and custom login pages.
-
-User authentication with roles.
-
-URL protection based on roles.
-
-Dynamic content visibility depending on user roles.
-
-User, password, and role storage in a database (plain-text and encrypted passwords).
-
-Technologies Used
-
-Java
-
-Spring Boot
-
-Spring Security
-
-Spring MVC
-
-Hibernate (JPA)
-
-MySQL / H2 Database
-
-Thymeleaf (for front-end rendering)
+## **Technologies Used**
+- **Spring Boot** (Spring MVC, Spring Security)
+- **Spring Data JPA** (for database interactions)
+- **Thymeleaf** (for frontend rendering)
+- ** MySQL** (database storage)
+- **BCrypt** (for password encryption)
+- **Maven** (for dependency management)
